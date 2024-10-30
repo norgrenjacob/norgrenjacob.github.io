@@ -1,0 +1,16 @@
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+.project-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.project-card:hover {
+    transform: scale(1.05);
+}
